@@ -7,9 +7,6 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir tensorflow==1.5.0
     #pip install --no-cache-dir tensorflow-gpu==1.8
     
-    # Deep Mind Sonnet
-    pip install --no-cache-dir dm-sonnet-gpu==1.17
-
     # Theano
     pip install --no-cache-dir Theano==1.0.1
 
