@@ -72,4 +72,4 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir flask
     pip install --no-cache-dir flask_cors
     pip install --no-cache-dir gunicorn
-    pip install --no-cahce-dir face_recognition
+    pip install --no-cache-dir face_recognition
