@@ -69,7 +69,7 @@ From: ucr-singularity/cuda-9.0-base
     # Installing dependencies for FACES project
     pip install --no-cache-dir imutils
     pip install --no-cache-dir dlib
-    #pip install --no-cache-dir progressbar2
+    pip install --no-cache-dir progressbar2
     pip install --no-cache-dir easydict
     pip install --no-cache-dir tqdm
     pip install --no-cache-dir flask
