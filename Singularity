@@ -3,7 +3,7 @@ From: ucr-singularity/cuda-9.0-base
 
 %post
     pip install --upgrade setuptools
-    pip install --no-cache-dir numpy
+    pip install --no-cache-dir numpy==1.15.4
     # TensorFlow
     #pip install --no-cache-dir tensorflow
     #==1.8
@@ -24,7 +24,7 @@ From: ucr-singularity/cuda-9.0-base
     # OpenCV from pip, including contrib.  This makes the install MUCH faster.
     # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
     # and limitations.  
-    pip install --no-cache-dir opencv-contrib-python    
+    pip install opencv-contrib-python    
 
     # Install Pydensecrf
     pip install git+https://github.com/lucasb-eyer/pydensecrf.git
