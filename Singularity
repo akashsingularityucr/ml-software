@@ -4,6 +4,7 @@ From: ucr-singularity/cuda-9.0-base
 %post
     pip install --upgrade setuptools
     pip install --no-cache-dir numpy==1.15.4
+    pip install --no-cache-dir scipy==1.2.0
     # TensorFlow
     #pip install --no-cache-dir tensorflow
     #==1.8
@@ -51,7 +52,7 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir tqdm
     
     #Sklearn update
-    pip install --no-cache-dir scikit-learn==0.19.2
+    #pip install --no-cache-dir scikit-learn==0.19.2
     
     #Biomedical Denoising library
     pip install --no-cache-dir csbdeep
