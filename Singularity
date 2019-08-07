@@ -3,6 +3,7 @@ From: ucr-singularity/cuda-9.0-base
 
 %post
     pip install --upgrade setuptools
+    pip install --no-cache-dir numpy
     # TensorFlow
     #pip install --no-cache-dir tensorflow
     #==1.8
