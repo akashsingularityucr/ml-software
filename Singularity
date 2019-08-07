@@ -4,16 +4,16 @@ From: ucr-singularity/cuda-9.0-base
 %post
     pip install --upgrade setuptools
     # TensorFlow
-    pip install --no-cache-dir tensorflow
+    #pip install --no-cache-dir tensorflow
     #==1.8
     #pip install --no-cache-dir tensorflow-gpu==1.8
     
     # Theano
-    pip install --no-cache-dir Theano==1.0.1
+    #pip install --no-cache-dir Theano==1.0.1
 
     # Keras
     #pip install --no-cache-dir keras==2.1.5
-    pip install --no-cache-dir keras==2.2.1
+    #pip install --no-cache-dir keras==2.2.1
     
     # Pytorch, per pytorch.org recommendation
     pip install --no-cache-dir torch==1.1.0
@@ -33,7 +33,7 @@ From: ucr-singularity/cuda-9.0-base
     
     #Keras ml package
     #pip install keras
-    pip install --no-cache-dir keras_vggface
+    #pip install --no-cache-dir keras_vggface
     
     #For keras generator
     pip install --no-cache-dir bcolz
@@ -76,4 +76,4 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir flask
     pip install --no-cache-dir flask_cors
     pip install --no-cache-dir gunicorn
-    pip install --no-cache-dir face_recognition
+    #pip install --no-cache-dir face_recognition
