@@ -15,8 +15,9 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir keras==2.2.1
     
     # Pytorch, per pytorch.org recommendation
-    pip install --no-cache-dir https://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
-    pip install --no-cache-dir torchvision==0.2.0
+    pip install --no-cache-dir torch==1.1.0
+    #https://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
+    pip install --no-cache-dir torchvision==0.2.1
 
     # OpenCV from pip, including contrib.  This makes the install MUCH faster.
     # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
@@ -69,6 +70,8 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir imutils
     pip install --no-cache-dir dlib
     pip install --no-cache-dir progressbar2
+    pip install --no-cache-dir easydict
+    pip install --no-cache-dir tqdm
     pip install --no-cache-dir flask
     pip install --no-cache-dir flask_cors
     pip install --no-cache-dir gunicorn
