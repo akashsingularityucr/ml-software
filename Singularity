@@ -4,7 +4,8 @@ From: ucr-singularity/cuda-9.0-base
 %post
 
     # TensorFlow
-    pip install --no-cache-dir tensorflow==1.8
+    pip install --no-cache-dir tensorflow
+    #==1.8
     #pip install --no-cache-dir tensorflow-gpu==1.8
     
     # Theano
