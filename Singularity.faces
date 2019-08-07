@@ -1,36 +1,41 @@
-pip install --no-cache-dir backports-abc==0.5
-pip install --no-cache-dir backports.functools-lru-cache==1.5
-pip install --no-cache-dir bcolz==1.2.1
-pip install --no-cache-dir certifi==2019.6.16
-pip install --no-cache-dir cffi==1.12.3
-pip install --no-cache-dir cycler==0.10.0
-pip install --no-cache-dir easydict==1.9
-pip install --no-cache-dir functools32==3.2.3.post2
-pip install --no-cache-dir future==0.17.1
-pip install --no-cache-dir futures==3.3.0
-pip install --no-cache-dir h5py==2.8.0
-pip install --no-cache-dir Keras==2.2.4
-pip install --no-cache-dir Keras-Applications==1.0.6
-pip install --no-cache-dir Keras-Preprocessing==1.0.5
-pip install --no-cache-dir kiwisolver==1.1.0
-pip install --no-cache-dir matplotlib==2.2.4
-pip install --no-cache-dir mkl-fft==1.0.14
-pip install --no-cache-dir mkl-random==1.0.4
-pip install --no-cache-dir mkl-service==2.1.0
-pip install --no-cache-dir numpy==1.15.4
-pip install --no-cache-dir olefile==0.46
-pip install --no-cache-dir Pillow==6.1.0
-pip install --no-cache-dir pycparser==2.19
-pip install --no-cache-dir pyparsing==2.4.2
-pip install --no-cache-dir python-dateutil==2.8.0
-pip install --no-cache-dir pytz==2019.2
-pip install --no-cache-dir PyYAML==5.1.2
-pip install --no-cache-dir scipy==1.2.0
-pip install --no-cache-dir singledispatch==3.4.0.3
-pip install --no-cache-dir six==1.12.0
-pip install --no-cache-dir subprocess32==3.5.4
-pip install --no-cache-dir torch==1.1.0
-pip install --no-cache-dir torchsummary==1.5.1
-pip install --no-cache-dir torchvision==0.2.1
-pip install --no-cache-dir tornado==5.1.1
-pip install --no-cache-dir tqdm==4.32.2
+Bootstrap: shub
+From: ucr-singularity/cuda-9.0-base
+
+%post
+
+    pip install --no-cache-dir backports-abc==0.5
+    pip install --no-cache-dir backports.functools-lru-cache==1.5
+    pip install --no-cache-dir bcolz==1.2.1
+    pip install --no-cache-dir certifi==2019.6.16
+    pip install --no-cache-dir cffi==1.12.3
+    pip install --no-cache-dir cycler==0.10.0
+    pip install --no-cache-dir easydict==1.9
+    pip install --no-cache-dir functools32==3.2.3.post2
+    pip install --no-cache-dir future==0.17.1
+    pip install --no-cache-dir futures==3.3.0
+    pip install --no-cache-dir h5py==2.8.0
+    pip install --no-cache-dir Keras==2.2.4
+    pip install --no-cache-dir Keras-Applications==1.0.6
+    pip install --no-cache-dir Keras-Preprocessing==1.0.5
+    pip install --no-cache-dir kiwisolver==1.1.0
+    pip install --no-cache-dir matplotlib==2.2.4
+    pip install --no-cache-dir mkl-fft==1.0.14
+    pip install --no-cache-dir mkl-random==1.0.4
+    pip install --no-cache-dir mkl-service==2.1.0
+    pip install --no-cache-dir numpy==1.15.4
+    pip install --no-cache-dir olefile==0.46
+    pip install --no-cache-dir Pillow==6.1.0
+    pip install --no-cache-dir pycparser==2.19
+    pip install --no-cache-dir pyparsing==2.4.2
+    pip install --no-cache-dir python-dateutil==2.8.0
+    pip install --no-cache-dir pytz==2019.2
+    pip install --no-cache-dir PyYAML==5.1.2
+    pip install --no-cache-dir scipy==1.2.0
+    pip install --no-cache-dir singledispatch==3.4.0.3
+    pip install --no-cache-dir six==1.12.0
+    pip install --no-cache-dir subprocess32==3.5.4
+    pip install --no-cache-dir torch==1.1.0
+    pip install --no-cache-dir torchsummary==1.5.1
+    pip install --no-cache-dir torchvision==0.2.1
+    pip install --no-cache-dir tornado==5.1.1
+    pip install --no-cache-dir tqdm==4.32.2
